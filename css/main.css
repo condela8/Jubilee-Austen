@@ -1,0 +1,198 @@
+/****** Global Styles ******/
+body{
+  font-family: 'Source Sans 3', sans-serif;;
+  color:#5E5D5E;
+  
+}
+.content-wrapper {
+  width: 1200px;
+  margin:0 auto;
+  overflow: auto;
+
+}
+
+/****** Header Styles ******/
+header h1{
+  float: left;
+  width: 300px;
+  font-family: 'Lora', serif;
+  font-size:30px ;
+  color:#7B7E54;
+  padding:65px 0px 65px 25px;
+
+}
+header h2{
+  width:1000px;
+  font-size: 72px;
+  clear:both;
+  font-family: 'Lora', serif; 
+  line-height: 80px;
+  color:#817F80;
+  padding:20px 0 20px 25px;
+
+
+}
+ .homepage-hero{
+  background: url('../img/full-background.png'), #f9efef;
+  background: cover;
+  background-position: center;
+  height: 800px;
+  
+}
+
+  header nav{
+  width:800px;
+  float:right;
+  text-align: right;
+  padding:75px 25px 75px 0;
+}
+header nav ul li{
+  display: inline-block;
+}
+header nav ul li a{
+  text-transform: uppercase;
+  color:#727172;
+  padding-left: 80px;
+}
+
+/****** About Styles ******/
+#about .content-wrapper{
+  padding: 80px 0 80px 0;
+}
+#about h2{
+  font-size:36px;
+  font-family: 'Lora', serif;
+  padding-left:50px;
+  /*color:#817F80;*/
+}
+#about p{
+  float:left;
+  width: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  line-height: 40px;
+
+
+}
+
+
+/****** Skill Styles ******/
+#skills{
+  background: #F5F5F5;
+  text-align:center;
+}
+#skills .content-wrapper{
+  padding-top:115px;
+  padding-bottom: 115px;
+}
+
+.skill-list{
+   float: left;
+  width: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+
+}
+#skills h2{
+  font-size:36px ;
+  font-family:'Lora', serif;
+  padding-bottom: 40px;
+
+}
+#skills h3{
+  font-size:24px ;
+  line-height: 36px;
+  margin-top:30px ;
+  margin-bottom: 20px;
+}
+#skills p{
+  font-size:20px ;
+  line-height: 40px;
+  text-align: left;
+
+}
+
+/****** Contact Styles ******/
+#contact{
+  background: #F9E9E9;
+}
+#contact .content-wrapper{
+  padding: 110px 0 110px 0;
+}
+#contact .contact-image{
+  float:left;
+  width: 600px;
+
+}
+#contact #contactImage{
+  width: 500px;
+  height: 300px;
+  border:12px solid white;
+  overflow: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#contact .contact-info{
+  float:left;
+  width: 600px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  /*margin-left: 50px;
+  margin-right: 50px;*/
+
+
+}
+#contact h2{
+  font-size:36px ;
+  font-family:'Lora', serif;
+  font-weight: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+#contact h3{
+  font-size:24px ;
+  font-family:'Lora', serif;
+  font-weight: 400px;
+  line-height: 36px;
+
+}
+#contact #email-header{
+  margin-bottom: 20px;
+}
+#contact #socialmedia-header{
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+#contact #envelopeIcon{
+  margin-right: 10px;
+}
+#contact #emailAdress{
+  font-size:24px ;
+  line-height: 36px;
+  font-family:'Lora', serif;
+  text-decoration:none ;
+  color:#5E5D5E;
+}
+#contact ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+#contact ul li{
+  display: inline-block;
+}
+#contact ul img{
+  padding-right: 40px;
+}
+
+/* font-family: 'Galada', cursive;
+font-family: 'Lora', serif;
+font-family: 'Mandali', sans-serif;
+font-family: 'Martel', serif;
+font-family: 'Martel Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans 3', sans-serif;
+font-family: 'Teko', sans-serif;*/
